@@ -1,0 +1,123 @@
+.title{
+    color: #03bf71;
+    font-size: 30px;
+    position: relative;
+    left: 40%;
+    font-weight: bold;
+    top : 3em;
+}
+body{
+    position: relative;
+    letter-spacing: 2px;
+}
+.heading{
+    width: 107%;
+    background-color: black;
+    position: absolute;
+    height: 10%;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-left: -9px;
+    margin-right: 25px;
+    
+}
+.theme{
+    padding-left: 15%;
+    position: relative;
+    top: 11px;
+    color: white;
+    font-size: 26px;
+    height: 10%;
+}
+html{
+    background-color: white;
+    font-size: 20px;
+    width: 100%;
+}
+
+.home{
+    position: relative;
+    top: 38em;
+    height: 3em;
+    width: 13em;
+    
+}
+#home{
+    height: 5em;
+    width: 5em;
+}
+.fa-solid fa-house-chimney{
+    height: 4em;
+    width: 10em;
+}
+.return{
+    margin-left: 5%;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+.accept{
+    height: 3em;
+    width: 7em;
+}
+p,li{
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    top: 5em;
+}
+@media all and (max-width : 1024px ) and (min-width : 768px){
+    .title{
+        position: relative;
+        left : 27%; 
+        top : 9vh;
+        color: #03bf71;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .heading{
+        height: 7%;
+
+    }
+}
+@media all and (max-width : 767px) and (min-width : 390px ){
+    .title{
+        position: relative;
+        left : 15%; 
+        top : 10vh;
+        color: #03bf71;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .heading{
+        height: 4%;
+        width : 127%;
+
+    }
+}
+@media all and (max-width : 667px) and (min-width : 375px ){
+    .title{
+        position: relative;
+        left : 13%; 
+        top : 4em;
+        color: #03bf71;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .heading{
+        height: 4%;
+        width : 111%;
+
+    }
+}
+@media all and (max-width : 820px) and (min-width : 1123px ){
+    .title{
+        position: relative;
+        left : 27%; 
+        color: #03bf71;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+}
